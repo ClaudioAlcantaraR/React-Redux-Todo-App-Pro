@@ -36,6 +36,7 @@ const Header = () => {
         onChange={handleChange}
         onKeyDown={handleKeyDown}
         disabled={isLoading}
+        autoFocus
       />
       {loader}
     </header>
